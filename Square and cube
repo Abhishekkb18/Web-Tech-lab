@@ -1,0 +1,46 @@
+<html>
+	<head>
+	<style>
+		body{
+		transform:translateX(15%);
+
+		}
+		td,table{
+		
+		border-collapse:collapse;
+		border: solid 1px black;
+		}
+		td{
+		padding:10px;
+		text-align:center;
+		background-color:white;
+		}
+		th{
+		border:solid 1px black;
+		background-color:grey;
+		}
+
+		
+	</style>
+	</head>
+	<body>
+
+		<table style="width:70%;height:100%">
+
+			<tr>
+				<th>Number</th>
+				<th>Square</th>
+				<th>Cube</th>
+			</tr>
+		<script>
+			for(var n=0;n<=10;n++){
+			document.write("<tr><td>"+n+"</td><td>"+n*n+"</td><td>"+n*n*n+"</td></tr>");
+			}
+		</script>
+			<tr>
+				
+			</tr>
+		</table>
+	</body>
+	
+</html>
